@@ -7,18 +7,20 @@ fn main() {
 
     let mut num_tries : u32 = 1;
 
+    //Generating a random number between a certain range using the rand crate
+    let random_num = rand::thread_rng().gen_range(1..=1000);
+    
     //Infinite loop until a break is triggered from inside the loop body
     loop {
 
-        println!("Please Enter A Number between 1-10:");
+        println!("Please Enter A Number between 1-1000:");
 
         //Declare a mutable string
         //It needs to be mutable as it will be passed to the stdin().read_line()
         //Which expects a mutable string
         let mut guess : String = String::new();
         
-        //Generating a random number between a certain range using the rand crate
-        let random_num = rand::thread_rng().gen_range(1..=10);
+     
 
 
         //Read a number from the terminal
