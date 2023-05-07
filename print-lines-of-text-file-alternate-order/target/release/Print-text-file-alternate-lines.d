@@ -1,0 +1,1 @@
+/home/djzaamir/github/rust-practice/print-lines-of-text-file-alternate-order/target/release/Print-text-file-alternate-lines: /home/djzaamir/github/rust-practice/print-lines-of-text-file-alternate-order/src/main.rs
